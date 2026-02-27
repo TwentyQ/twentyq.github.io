@@ -3,7 +3,8 @@ site_name: Сайт-портфолио
 nav:
   - Главная: index.md
   - Об авторе: about.md
-
+  - Лабораторные работы:
+    - Обзор: labs/index.md
 theme:
   name: material
   palette:
