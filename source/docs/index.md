@@ -1,17 +1,20 @@
-# Welcome to MkDocs
+# Привет! Я Данилова Анастасия!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Студент и начинающий разработчик
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Добро пожаловать в моё портфолио! Я учусь на факультете Нейротехнологий и программирования в Университете ИТМО. 
 
-## Project layout
+--- 
+**Моя суперсила:** быстро разбираться в новых инструментах, грамотно работать с нейросетями (промптинг) и превращать идеи в визуальные истории.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+## Что я могу для вас сделать:
+
+* Разработка на Python - напишу программы под ваши задачи: от парсеров данных до телеграм-ботов.
+
+* Промптинг и работа с нейросетями - создаю качественный контент с помощью ИИ (тексты, изображения, идеи).
+
+* Визуальные новеллы и интерактивные истории - продумываю сюжеты, пишу сценарии и воплощаю их в игры.
+
+* Создание презентаций - структурирую информацию и упаковываю в красивые, понятные слайды.

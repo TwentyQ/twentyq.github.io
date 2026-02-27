@@ -1,7 +1,9 @@
 site_name: Сайт-портфолио
+
 nav:
-    - Home: index.md
-    - About: about.md
+  - Главная: index.md
+  - Об авторе: about.md
+
 theme:
   name: material
   palette:
@@ -10,21 +12,25 @@ theme:
       accent: deep purple
       toggle:
         icon: material/weather-night
-        name: Светлая тема?
+        name: Светлая тема
     - scheme: default
       primary: pink
       accent: deep purple
       toggle:
         icon: material/weather-sunny
-        name: Темная тема?
+        name: Темная тема
 
   features:
     - navigation.tabs
-    - navigation.indexes
+    - navigation.top
     - navigation.footer
     - content.code.copy
     - content.code.annotate
 
+  hide:
+    - navigation
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
+  - pymdownx.superfences
