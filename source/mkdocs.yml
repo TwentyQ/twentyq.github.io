@@ -17,3 +17,14 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Темная тема?
+
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.footer
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
