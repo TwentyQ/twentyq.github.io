@@ -3,4 +3,17 @@ nav:
     - Home: index.md
     - About: about.md
 theme:
-    name: dracula
+  name: material
+  palette:
+    - scheme: slate
+      primary: pink
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Светлая тема?
+    - scheme: default
+      primary: pink
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Темная тема?
