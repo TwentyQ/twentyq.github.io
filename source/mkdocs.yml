@@ -4,9 +4,9 @@ nav:
   - Главная: index.md
   - Об авторе: about.md
   - Лабораторные работы:
-    - Обзор: labs/index.md
-    - Лабораторная работа №1: labs/lab1.md
-    - Лабораторная работа №2: labs/lab2.md
+      - Обзор: labs/index.md
+      - Лабораторная работа №1: labs/lab1.md
+      - Лабораторная работа №2: labs/lab2.md
   - Контакты: contact.md
 theme:
   name: material
