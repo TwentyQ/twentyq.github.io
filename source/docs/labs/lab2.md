@@ -388,8 +388,7 @@ test.py::test_plot_line PASSED                                                  
 
 =============================================================================== 17 passed in 6.79s ================================================================================
 ```
-## Ссылки на результат
-**Репозиторий:** https://github.com/TwentyQ/ITMO_PYTHON/tree/main/Lab_2_NumPy
+## Ссылки на результа: [Репозиторий](https://github.com/TwentyQ/ITMO_PYTHON/tree/main/Lab_2_NumPy)
 
 ## Выводы
 

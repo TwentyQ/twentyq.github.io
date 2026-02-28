@@ -158,10 +158,7 @@ git commit -m "Первая версия сайта-портфолио"
 git push origin main
 ```
 
-## Ссылки на результат
-**Репозиторий:** https://github.com/TwentyQ/twentyq.github.io
-
-**Сайт:** https://twentyq.github.io/
+## Ссылки на результат: [**Репозиторий**](https://github.com/TwentyQ/twentyq.github.io) и [**Сайт: https://twentyq.github.io/**](https://twentyq.github.io/)
 
 ## Выводы
 **В результате выполнения лабораторной работы:**
