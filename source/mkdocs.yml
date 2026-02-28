@@ -5,6 +5,7 @@ nav:
   - Об авторе: about.md
   - Лабораторные работы:
     - Обзор: labs/index.md
+  - Контакты: contact.md
 theme:
   name: material
   palette:
