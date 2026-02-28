@@ -579,7 +579,79 @@
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ссылки на результа: Репозиторий
+        Нюансы и особенности решения
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Нюансы и особенности решения">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Векторизация вместо циклов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-matplotlib" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Настройка Matplotlib для серверного окружения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Тестирование визуализации
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Импорт тестируемых функций
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.Обработка крайних случаев
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ссылки на результат: Репозиторий
       
     </span>
   </a>
@@ -587,7 +659,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
         Выводы
@@ -703,7 +775,79 @@
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ссылки на результа: Репозиторий
+        Нюансы и особенности решения
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Нюансы и особенности решения">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Векторизация вместо циклов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-matplotlib" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Настройка Matplotlib для серверного окружения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Тестирование визуализации
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Импорт тестируемых функций
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.Обработка крайних случаев
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ссылки на результат: Репозиторий
       
     </span>
   </a>
@@ -711,7 +855,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
         Выводы
@@ -819,8 +963,10 @@
 </code></pre></div></p>
 </li>
 <li>
-<p>Реализация функций в main.py
-<strong>Создание и обработка массивов</strong>
+<p>Реализация функций в main.py</p>
+</li>
+</ol>
+<p><strong>Создание и обработка массивов</strong>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
 <a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 <a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib</span>
@@ -1085,11 +1231,9 @@
 <a id="__codelineno-7-44" name="__codelineno-7-44" href="#__codelineno-7-44"></a>    <span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;plots/line_plot.png&#39;</span><span class="p">)</span>
 <a id="__codelineno-7-45" name="__codelineno-7-45" href="#__codelineno-7-45"></a>    <span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 </code></pre></div></p>
-</li>
-<li>
-<p>Тестирование (test.py)
-Тесты проверяют корректность работы всех функций. </p>
-</li>
+<ol>
+<li>Тестирование (test.py)
+Тесты проверяют корректность работы всех функций. </li>
 </ol>
 <p><strong>Запуск тестов:</strong>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>python<span class="w"> </span>-m<span class="w"> </span>pytest<span class="w"> </span>test.py<span class="w"> </span>-v
@@ -1130,8 +1274,30 @@
 <a id="__codelineno-10-20" name="__codelineno-10-20" href="#__codelineno-10-20"></a>
 <a id="__codelineno-10-21" name="__codelineno-10-21" href="#__codelineno-10-21"></a><span class="o">===============================================================================</span><span class="w"> </span><span class="m">17</span><span class="w"> </span>passed<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="m">6</span>.79s<span class="w"> </span><span class="o">================================================================================</span>
 </code></pre></div></p>
-<h2 id="_4">Ссылки на результа: <a href="https://github.com/TwentyQ/ITMO_PYTHON/tree/main/Lab_2_NumPy">Репозиторий</a></h2>
-<h2 id="_5">Выводы</h2>
+<h2 id="_4">Нюансы и особенности решения</h2>
+<h3 id="1">1. <strong>Векторизация вместо циклов</strong></h3>
+<p>Все операции с массивами реализованы с использованием встроенных функций NumPy, что обеспечивает высокую производительность и читаемость кода. Например, сложение векторов выполняется просто оператором <code>+</code>, а не поэлементным циклом.</p>
+<h3 id="2-matplotlib">2. <strong>Настройка Matplotlib для серверного окружения</strong></h3>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="n">matplotlib</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s1">&#39;Agg&#39;</span><span class="p">)</span>
+</code></pre></div>
+Эта строка критически важна при запуске на сервере или в окружении без графического интерфейса. Она указывает Matplotlib использовать бэкенд для сохранения изображений без отображения на экране.</p>
+<h3 id="3">3. Тестирование визуализации</h3>
+<p>Тесты для функций построения графиков проверяют только то, что функция выполняется без ошибок.</p>
+<h3 id="4">4. Импорт тестируемых функций</h3>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">main</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>    <span class="n">create_vector</span><span class="p">,</span> <span class="n">create_matrix</span><span class="p">,</span> <span class="n">reshape_vector</span><span class="p">,</span> <span class="n">transpose_matrix</span><span class="p">,</span>
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>    <span class="c1"># ... и т.д)</span>
+</code></pre></div>
+Все импорты выписаны явно. Это улучшает читаемость и упрощает поиск зависимостей.</p>
+<h3 id="5">5.Обработка крайних случаев</h3>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="k">if</span> <span class="n">data_max</span> <span class="o">-</span> <span class="n">data_min</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="k">return</span> <span class="p">(</span><span class="n">data</span> <span class="o">-</span> <span class="n">data_min</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">data_max</span> <span class="o">-</span> <span class="n">data_min</span><span class="p">)</span>
+</code></pre></div>
+<strong>np.zeros_like()</strong> - создает массив нулей той же размерности и типа, что и исходный массив, что гарантирует корректный возврат данных при невозможности нормализации (т.е когда все значения одинаковы).</p>
+<h2 id="_5">Ссылки на результат: <a href="https://github.com/TwentyQ/ITMO_PYTHON/tree/main/Lab_2_NumPy">Репозиторий</a></h2>
+<h2 id="_6">Выводы</h2>
 <p><strong>В результате выполнения лабораторной работы:</strong></p>
 <ul>
 <li>
