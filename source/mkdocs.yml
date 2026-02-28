@@ -1,13 +1,16 @@
-site_name: Сайт-портфолио
+site_name: Сайт-портфолио|Анастасия Данилова
 
 nav:
   - Главная: index.md
   - Об авторе: about.md
   - Лабораторные работы:
     - Обзор: labs/index.md
+    - Лабораторная работа №1: labs/lab1.md
   - Контакты: contact.md
 theme:
   name: material
+  favicon: assets/images/icon.png
+  logo: assets/images/logo.png
   palette:
     - scheme: slate
       primary: pink
