@@ -114,8 +114,8 @@ site:
 
 #### Результат SourceCraft
 
-- **Репозиторий:** (https://sourcecraft.dev/nastyalike-0/main)
-- **Сайт:** (https://nastyalike-0.sourcecraft.site/main/)
+- **Репозиторий:** [https://sourcecraft.dev/nastyalike-0/main](https://nastyalike-0.sourcecraft.site/main/)
+- **Сайт:** [https://nastyalike-0.sourcecraft.site/main/](https://nastyalike-0.sourcecraft.site/main/)
 
 ### 2. Настройка CI/CD для GitHub
 
@@ -168,8 +168,8 @@ jobs:
 
 #### Результат GitHub
 
-- **Репозиторий:** (https://github.com/TwentyQ/twentyq.github.io/tree/gh-pages)
-- **Сайт:** (https://twentyq.github.io/)
+- **Репозиторий:** [https://github.com/TwentyQ/twentyq.github.io/tree/gh-pages](https://nastyalike-0.sourcecraft.site/main/)
+- **Сайт:** [https://twentyq.github.io/](https://nastyalike-0.sourcecraft.site/main/)
 
 ## Ключевых элементов
 
@@ -188,22 +188,33 @@ jobs:
 
 В ходе выполнения лабораторной работы:
 
-1. **SourceCraft:**
-   - Освоена настройка CI/CD на платформе SourceCraft с использованием встроенных пайплайнов.
-   - Реализована автоматическая сборка статического сайта на базе MkDocs.
-   - Настроена публикация собранного сайта в отдельную ветку `release`.
-   - Получен практический опыт работы с персональными токенами доступа.
+**SourceCraft:**
 
-2. **GitHub:**
-   - Изучена настройка GitHub Actions для автоматической сборки и публикации сайта.
-   - Освоено использование готовых действий (`actions/checkout`, `actions/setup-python`, `peaceiris/actions-gh-pages`).
-   - Настроена публикация на GitHub Pages через ветку `gh-pages`.
-   - Изучены ключевые концепции GitHub Actions (runs-on, permissions, secrets.GITHUB_TOKEN).
+* Освоена настройка CI/CD на платформе SourceCraft с использованием встроенных пайплайнов.
 
-3. **Общее:**
-   - Создана единая структура проекта, работающая на обеих платформах.
-   - Настроена автоматическая публикация сайта при каждом пуше в ветку `main`.
-   - Получен опыт работы с различными подходами к CI/CD.
+* Реализована автоматическая сборка статического сайта на базе MkDocs.
+
+* Настроена публикация собранного сайта в отдельную ветку `release`.
+
+* Получен практический опыт работы с персональными токенами доступа.
+
+**GitHub:**
+
+* Изучена настройка GitHub Actions для автоматической сборки и публикации сайта.
+
+* Освоено использование готовых действий (`actions/checkout`, `actions/setup-python`, `peaceiris/actions-gh-pages`).
+
+* Настроена публикация на GitHub Pages через ветку `gh-pages`.
+
+* Изучены ключевые концепции GitHub Actions (runs-on, permissions, secrets.GITHUB_TOKEN).
+
+**Общее:**
+
+* Создана единая структура проекта, работающая на обеих платформах.
+
+* Настроена автоматическая публикация сайта при каждом пуше в ветку `main`.
+
+* Получен опыт работы с различными подходами к CI/CD.
 
 ---
 
