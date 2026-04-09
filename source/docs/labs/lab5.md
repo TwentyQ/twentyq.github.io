@@ -17,9 +17,10 @@
 
 ### Бонусная часть - Алгоритм интеграции с веб-сервисом
 
-## Ссылка на Jupyter Notebook (ipynb-борд)
+## **Ссылка на Jupyter Notebook (ipynb-борд)**
 
 Выполненный ноутбук со всеми ячейками и самостоятельным заданием доступен по ссылке:
+
 [https://colab.research.google.com/drive/1BGe9cRNBhRiDR1Hk15HPntMQ-ERO8Y-o?usp=sharing](https://colab.research.google.com/drive/1BGe9cRNBhRiDR1Hk15HPntMQ-ERO8Y-o?usp=sharing)
 
 ## Выводы
