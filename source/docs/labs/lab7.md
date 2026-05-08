@@ -133,7 +133,9 @@ print(classification_report(y_test, pred))
 Причина: в данных присутствует сильный сигнал - смайлик :D, который почти всегда соответствует положительному классу. Модель выучила этот простой паттерн.
 
 ### 7. Самостоятельная работа: альтернативные модели
+
 #### XGBClassifier
+
 ```bash
 le = LabelEncoder()
 y_train_enc = le.fit_transform(y_train)
@@ -148,6 +150,7 @@ xgb.fit(x_train_smart, y_train_enc)
 pred_xgb = xgb.predict(x_test_smart)
 print(classification_report(y_test_enc, pred_xgb, target_names=['negative','positive']))
 ```
+
 Результаты:
 
 | Класс    | Precision | Recall | F1-score |
@@ -155,7 +158,9 @@ print(classification_report(y_test_enc, pred_xgb, target_names=['negative','posi
 | negative | 0.71      | 0.78   | 0.74     |
 | positive | 0.76      | 0.69   | 0.73     |
 | accuracy |           |        | 0.73     |
+
 #### RandomForestClassifier
+
 ```bash
 rf = RandomForestClassifier(n_estimators=300, max_depth=15,
                             min_samples_split=10, min_samples_leaf=5)

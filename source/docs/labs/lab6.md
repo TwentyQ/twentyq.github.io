@@ -105,14 +105,14 @@ labels = ['Child','Teen','Young Adult','Adult','Senior']
 training_data['Age_group'] = pd.cut(training_data['Age'], bins=bins, labels=labels, right=False)
 ```
 
-**Embarked ** - заполнение модой
+**Embarked** - заполнение модой
 
 ```bush
 mode_embarked = training_data['Embarked'].mode()[0]   # 'S'
 training_data['Embarked'].fillna(mode_embarked, inplace=True)
 ```
 
-**Cabin ** - извлечение первой буквы
+**Cabin** - извлечение первой буквы
 
 ```bush
 training_data['Cabin_letter'] = np.where(
