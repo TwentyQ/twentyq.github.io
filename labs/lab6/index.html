@@ -1354,11 +1354,11 @@
 <a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>labels = [&#39;Child&#39;,&#39;Teen&#39;,&#39;Young Adult&#39;,&#39;Adult&#39;,&#39;Senior&#39;]
 <a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>training_data[&#39;Age_group&#39;] = pd.cut(training_data[&#39;Age&#39;], bins=bins, labels=labels, right=False)
 </code></pre></div>
-<p>**Embarked ** - заполнение модой</p>
+<p><strong>Embarked</strong> - заполнение модой</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>mode_embarked = training_data[&#39;Embarked&#39;].mode()[0]   # &#39;S&#39;
 <a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>training_data[&#39;Embarked&#39;].fillna(mode_embarked, inplace=True)
 </code></pre></div>
-<p>**Cabin ** - извлечение первой буквы</p>
+<p><strong>Cabin</strong> - извлечение первой буквы</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>training_data[&#39;Cabin_letter&#39;] = np.where(
 <a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>    training_data[&#39;Cabin&#39;].isna(),
 <a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>    &#39;Unknown&#39;,

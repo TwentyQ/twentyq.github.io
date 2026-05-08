@@ -833,6 +833,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#randomforestclassifier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RandomForestClassifier
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1208,6 +1219,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#randomforestclassifier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RandomForestClassifier
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1484,7 +1506,7 @@
 Причина: в данных присутствует сильный сигнал - смайлик :D, который почти всегда соответствует положительному классу. Модель выучила этот простой паттерн.</p>
 <h3 id="7">7. Самостоятельная работа: альтернативные модели</h3>
 <h4 id="xgbclassifier">XGBClassifier</h4>
-<p><div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nv">le</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>LabelEncoder<span class="o">()</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nv">le</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>LabelEncoder<span class="o">()</span>
 <a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="nv">y_train_enc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>le.fit_transform<span class="o">(</span>y_train<span class="o">)</span>
 <a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="nv">y_test_enc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>le.transform<span class="o">(</span>y_test<span class="o">)</span>
 <a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>
@@ -1497,7 +1519,7 @@
 <a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a><span class="nv">pred_xgb</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>xgb.predict<span class="o">(</span>x_test_smart<span class="o">)</span>
 <a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>print<span class="o">(</span>classification_report<span class="o">(</span>y_test_enc,<span class="w"> </span>pred_xgb,<span class="w"> </span><span class="nv">target_names</span><span class="o">=[</span><span class="s1">&#39;negative&#39;</span>,<span class="s1">&#39;positive&#39;</span><span class="o">]))</span>
 </code></pre></div>
-Результаты:</p>
+<p>Результаты:</p>
 <table>
 <thead>
 <tr>
@@ -1526,31 +1548,16 @@
 <td></td>
 <td>0.73</td>
 </tr>
-<tr>
-<td>#### RandomForestClassifier</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="nv">rf</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>RandomForestClassifier<span class="o">(</span><span class="nv">n_estimators</span><span class="o">=</span><span class="m">300</span>,<span class="w"> </span><span class="nv">max_depth</span><span class="o">=</span><span class="m">15</span>,
+</tbody>
+</table>
+<h4 id="randomforestclassifier">RandomForestClassifier</h4>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="nv">rf</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>RandomForestClassifier<span class="o">(</span><span class="nv">n_estimators</span><span class="o">=</span><span class="m">300</span>,<span class="w"> </span><span class="nv">max_depth</span><span class="o">=</span><span class="m">15</span>,
 <a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">                            </span><span class="nv">min_samples_split</span><span class="o">=</span><span class="m">10</span>,<span class="w"> </span><span class="nv">min_samples_leaf</span><span class="o">=</span><span class="m">5</span><span class="o">)</span>
 <a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>rf.fit<span class="o">(</span>x_train_smart,<span class="w"> </span>y_train<span class="o">)</span>
 <a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="nv">pred_rf</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>rf.predict<span class="o">(</span>x_test_smart<span class="o">)</span>
 <a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>print<span class="o">(</span>classification_report<span class="o">(</span>y_test,<span class="w"> </span>pred_rf<span class="o">))</span>
-</code></pre></div></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Результаты:</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+</code></pre></div>
+Результаты:</p>
 <table>
 <thead>
 <tr>
